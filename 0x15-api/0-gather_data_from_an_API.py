@@ -33,7 +33,6 @@ if __name__ == '__main__':
     # Number of completed tasks
     completed = total - non_completed
 
-
     # Formatting the expected output
     str = "Employee {emp_name} is done with tasks({completed}/{total}):"
     print(str.format(emp_name=name, completed=completed, total=total))
