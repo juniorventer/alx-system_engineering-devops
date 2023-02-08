@@ -21,7 +21,7 @@ def get_tasks_from_employee(response, employee):
             }
 
             employee_tasks.append(task_data)
-    
+
     # Returns the list of tasks
     return employee_tasks
 
