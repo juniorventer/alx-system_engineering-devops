@@ -11,7 +11,7 @@ if __name__ == '__main__':
         emp_id = int(argv[1])
     except ValueError:
         exit()
-    
+
     # Main formatted names to API uris and filenames
     api_url = 'https://jsonplaceholder.typicode.com'
     user_uri = '{api}/users/{id}'.format(api=api_url, id=emp_id)
